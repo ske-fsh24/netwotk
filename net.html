@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skerdi Network - Digital Fortress Unleashed</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#dc2626',
+                        secondary: '#ea580c'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-900 text-white min-h-screen">
+    <div id="vanta-bg" class="fixed inset-0 z-0"></div>
+    
+    <main class="relative z-10">
+        <!-- Hero Section -->
+        <section class="min-h-screen flex items-center justify-center px-4">
+            <div class="text-center max-w-4xl">
+                <div class="mb-8">
+                    <i data-feather="shield" class="w-20 h-20 text-primary mx-auto mb-6"></i>
+                    <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                        Skerdi Network
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-300 mb-8">
+                        Digital Fortress Unleashed
+                    </p>
+                </div>
+                
+                <!-- Stats Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+                    <div class="bg-gray-800/50 backdrop-blur-lg rounded-xl p-6 border-l-4 border-primary">
+                        <i data-feather="users" class="w-8 h-8 text-secondary mb-3"></i>
+                        <h3 class="text-2xl font-bold text-white">Global Community</h3>
+                        <p class="text-gray-400 mt-2">Connecting cybersecurity professionals worldwide</p>
+                    </div>
+                    
+                    <div class="bg-gray-800/50 backdrop-blur-lg rounded-xl p-6 border-l-4 border-secondary">
+                        <i data-feather="lock" class="w-8 h-8 text-primary mb-3"></i>
+                        <h3 class="text-2xl font-bold text-white">Secure Platform</h3>
+                        <p class="text-gray-400 mt-2">Enterprise-grade security and privacy protection</p>
+                    </div>
+                    
+                    <div class="bg-gray-800/50 backdrop-blur-lg rounded-xl p-6 border-l-4 border-primary">
+                        <i data-feather="zap" class="w-8 h-8 text-secondary mb-3"></i>
+                        <h3 class="text-2xl font-bold text-white">High Performance</h3>
+                        <p class="text-gray-400 mt-2">Lightning-fast network infrastructure</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-20 px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-4xl font-bold mb-6 text-white">
+                            About <span class="text-primary">Skerdi Network</span>
+                        </h2>
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Skerdi Network represents the cutting edge of digital security and network infrastructure. 
+                            Built with precision and powered by innovation, we provide robust solutions for modern 
+                            cybersecurity challenges.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Our platform integrates advanced threat detection, real-time monitoring, and 
+                            enterprise-grade protection mechanisms to safeguard digital assets across global networks.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-3">
+                                <i data-feather="check-circle" class="w-5 h-5 text-secondary"></i>
+                                <span class="text-gray-300">Advanced threat intelligence</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i data-feather="check-circle" class="w-5 h-5 text-secondary"></i>
+                                <span class="text-gray-300">24/7 security monitoring</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i data-feather="check-circle" class="w-5 h-5 text-secondary"></i>
+                                <span class="text-gray-300">Global network infrastructure</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="relative">
+                        <div class="bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl p-8 backdrop-blur-lg">
+                            <i data-feather="server" class="w-16 h-16 text-primary mb-6"></i>
+                            <h3 class="text-2xl font-bold text-white mb-4">Network Architecture</h3>
+                            <p class="text-gray-300">
+                                Our distributed network architecture ensures maximum uptime and reliability, 
+                                with multiple redundancy layers and automated failover systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="py-20 px-4 bg-gray-800/30">
+            <div class="max-w-6xl mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-16 text-white">
+                    Core <span class="text-secondary">Capabilities</span>
+                </h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Feature 1 -->
+                    <div class="group bg-gray-900/50 backdrop-blur-lg rounded-xl p-8 border border-gray-700 hover:border-primary transition-all duration-300">
+                        <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary/30 transition-colors">
+                            <i data-feather="eye" class="w-6 h-6 text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-4">Real-time Monitoring</h3>
+                        <p class="text-gray-400">
+                            Continuous surveillance of network activities with AI-powered anomaly detection 
+                            and automated threat response systems.
+                        </p>
+                    </div>
+                    
+                    <!-- Feature 2 -->
+                    <div class="group bg-gray-900/50 backdrop-blur-lg rounded-xl p-8 border border-gray-700 hover:border-secondary transition-all duration-300">
+                        <div class="w-12 h-12 bg-secondary/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-secondary/30 transition-colors">
+                            <i data-feather="shield" class="w-6 h-6 text-secondary"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-4">Advanced Protection</h3>
+                        <p class="text-gray-400">
+                            Multi-layered security protocols including encryption, access control, and 
+                            behavioral analysis to prevent unauthorized access.
+                        </p>
+                    </div>
+                    
+                    <!-- Feature 3 -->
+                    <div class="group bg-gray-900/50 backdrop-blur-lg rounded-xl p-8 border border-gray-700 hover:border-primary transition-all duration-300">
+                        <div class="w-12 h-12 bg-primary/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary/30 transition-colors">
+                            <i data-feather="activity" class="w-6 h-6 text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-4">Performance Analytics</h3>
+                        <p class="text-gray-400">
+                            Comprehensive performance metrics and analytics dashboard for optimizing 
+                            network efficiency and resource allocation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-900/80 backdrop-blur-lg border-t border-gray-700 py-12 px-4">
+            <div class="max-w-6xl mx-auto text-center">
+                <div class="flex justify-center items-center space-x-4 mb-6">
+                    <i data-feather="globe" class="w-6 h-6 text-primary"></i>
+                    <span class="text-lg text-gray-300">skerdi.net</span>
+                </div>
+                <p class="text-gray-400">
+                    © 2025 Skerdi Network. All rights reserved. Digital security redefined.
+                </p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize Vanta.js globe background
+        VANTA.GLOBE({
+            el: "#vanta-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: '#dc2626',
+            color2: '#ea580c',
+            backgroundColor: '#111827',
+            size: 0.8
+        });
+
+        // Initialize Feather Icons
+        feather.replace();
+    </script>
+</body>
+</html>
